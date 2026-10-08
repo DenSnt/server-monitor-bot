@@ -5,6 +5,7 @@ Telegram-бот для мониторинга Linux-сервера.
 ## Команды
 - `/status` — имя сервера, время работы, память, диск
 - `/id` — узнать свой Telegram ID
+- `/db` — состояние PostgreSQL: версия, подключения, размер баз
 
 ## Установка
 1. `python3 -m venv venv && source venv/bin/activate`
