@@ -1,5 +1,3 @@
-# Server Monitor Bot
-
 Telegram-бот для мониторинга Linux-сервера.
 
 ## Команды
@@ -12,3 +10,7 @@ Telegram-бот для мониторинга Linux-сервера.
 2. `pip install -r requirements.txt`
 3. Скопировать `.env.example` в `.env` и вписать токен и свой ID
 4. `python3 bot.py`
+
+## Запуск в Docker
+1. Скопировать `.env.example` в `.env` и заполнить
+2. `docker compose up -d --build`
